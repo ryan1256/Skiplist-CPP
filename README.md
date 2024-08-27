@@ -16,10 +16,13 @@
 
 ```
 make            // complie demo main.cpp
-./bin/main      // run 
+./bin/main      // run
 
+sh stress_test_start.sh  // stress test
+```
 
-> 可优化的点 
+## 可优化的点
+
 1.LRU 定时删除、定期删除和惰性删除的过期删除策略
 2.rdb数据存盘机制，实现AOF机制
 3.LSM结构
